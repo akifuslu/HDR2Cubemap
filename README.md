@@ -2,6 +2,9 @@
 ## A Blender CLI script to render cubemap faces from HDR map
 
 ### 1. Usage 
+Install [Blender 3.6 LTS](https://www.blender.org/download/lts/3-6/) or newer. (Blender 4.0 is not tested)
+
+Run from the CLI:
 ```
 blender -b -P hdr_render.py -- [PATH_TO_HDR_FILE] [OUTPUT_PATH] [OUTPUT_RESOLUTION] [Z_SHIFT] [X_SHIFT] [Y_SHIFT]
 ```
